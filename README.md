@@ -15,10 +15,10 @@ Let their first common node be X. A usual algorithm to find X is:
 
 This operates in time O(lA + lB).
 
-Here we devise and implement an algorithm with running time
+Here we devise and implement a new algorithm with running time
 
 O( d(X,a0) + d(X,b0) )
 
-where d(,) denotes distance between two nodes. The main improvement here is that we only spend time proportional to the inital segments before the first common node, instead of the entire lengths of the lists.
+where d(,) denotes distance between two nodes. The main improvement here is that we only spend time proportional to the inital segments preceding the first common node, instead of the entire lengths of the lists.
 
 
