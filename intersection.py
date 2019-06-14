@@ -89,23 +89,27 @@ def retrace(a,b,a_dist,b_dist):
     return x
    
    
-####EXAMPLE####     
-a = Node('a')
-b = Node('b')
-c = Node('c')
-d = Node('d')
-e = Node('e')
-f = Node('f')
 
-a.next = g
-g.next = c
+""" 
+EXAMPLE INPUT:   
+    a = Node('a')
+    b = Node('b')
+    c = Node('c')
+    d = Node('d')
+    e = Node('e')
+    f = Node('f')
 
-b.next = c
-c.next = d
-d.next = e
-e.next = f
+    a.next = g
+    g.next = c
 
-intersection(a,b)
+    b.next = c
+    c.next = d
+    d.next = e
+    e.next = f
 
-####OUTPUT####
-g = Node('g')
+    intersection(a,b)
+
+EXAMPLE OUTPUT: 
+    Node('c')
+"""
+
