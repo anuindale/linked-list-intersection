@@ -60,7 +60,7 @@ def intersection(a,b):
 
 def retrace(a,b,a_dist,b_dist):
     """ 
-    Find the first common Node of two linked lists, given distances to some common Node
+    Helper function to find the first common Node of two linked lists, given distances to some common Node
   
     Parameters: 
     a (Node): beginning of first list
