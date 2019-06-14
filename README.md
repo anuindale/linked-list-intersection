@@ -1,4 +1,4 @@
-# linked_list_intersection
+# linked-list-intersection
 Finding the first common node of two linked lists in optimal time
 
 We have two linked lists 
