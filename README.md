@@ -7,7 +7,7 @@ We have two linked lists
 
 Denote their lengths by lA and lB
 
-Let their first common node be X. A usual algorithm to find X is:
+Let their first common node be X. A common algorithm to find X is:
 
 1) Iterate through A and B
 2) Compute difference d = lA - lB
