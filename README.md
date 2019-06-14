@@ -19,6 +19,6 @@ Here we devise and implement a new algorithm with running time
 
 O( d(X,a0) + d(X,b0) )
 
-where d(,) denotes distance between two nodes. The main improvement here is that we only spend time proportional to the inital segments preceding the first common node, instead of the entire lengths of the lists.
+where d(,) denotes distance between two nodes. The main improvement here is that we only spend time proportional to the inital segments preceding X, instead of the entire lengths of the lists.
 
 
